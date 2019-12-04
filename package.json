@@ -2,9 +2,12 @@
   "name": "bombino-remote",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "node ./bin update"
+  },
+  "bin": {
+    "bombino-remote": "./bin/index.js"
   },
   "repository": {
     "type": "git",
